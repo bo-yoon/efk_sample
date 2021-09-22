@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: info
+  file:
+    path: "./logging"
+    ##"/Users/kwonby/devops/efk_docker/sample/logging"
