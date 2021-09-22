@@ -21,3 +21,127 @@
 2021-09-22 11:21:37.127  INFO 33523 --- [http-nio-8090-exec-2] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
 2021-09-22 11:21:37.395  INFO 33523 --- [http-nio-8090-exec-3] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
 2021-09-22 11:21:37.721  INFO 33523 --- [http-nio-8090-exec-4] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 12:15:45.011  INFO 34338 --- [restartedMain] com.efk.sample.SampleApplication         : Starting SampleApplication using Java 1.8.0_265 on kwonbyui-MacBookPro.local with PID 34338 (/Users/kwonby/devops/efk_docker/sample/build/classes/java/main started by kwonby in /Users/kwonby/devops/efk_docker/sample)
+2021-09-22 12:15:45.015  INFO 34338 --- [restartedMain] com.efk.sample.SampleApplication         : The following profiles are active: dev
+2021-09-22 12:15:45.062  INFO 34338 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-22 12:15:45.063  INFO 34338 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-22 12:15:45.901  INFO 34338 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-09-22 12:15:45.907  INFO 34338 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 12:15:45.908  INFO 34338 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 12:15:45.947  INFO 34338 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 12:15:45.948  INFO 34338 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 885 ms
+2021-09-22 12:15:46.235  INFO 34338 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22 12:15:46.367  INFO 34338 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-22 12:15:46.508  INFO 34338 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-22 12:15:46.509  INFO 34338 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-22 12:15:46.549  INFO 34338 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-22 12:15:46.602  INFO 34338 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-22 12:15:46.680  INFO 34338 --- [restartedMain] com.efk.sample.SampleApplication         : Started SampleApplication in 2.309 seconds (JVM running for 2.908)
+2021-09-22 12:16:05.967  INFO 34338 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 12:16:05.967  INFO 34338 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-22 12:16:05.968  INFO 34338 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-22 12:16:10.630  INFO 34338 --- [http-nio-8090-exec-9] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 12:16:12.001  INFO 34338 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:14:04.950  INFO 34338 --- [http-nio-8090-exec-5] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:14:05.875  INFO 34338 --- [http-nio-8090-exec-4] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:17:52.966  INFO 39223 --- [restartedMain] com.efk.sample.SampleApplication         : Starting SampleApplication using Java 1.8.0_265 on kwonbyui-MacBookPro.local with PID 39223 (/Users/kwonby/devops/efk_docker/sample/build/classes/java/main started by kwonby in /Users/kwonby/devops/efk_docker/sample)
+2021-09-22 14:17:52.972  INFO 39223 --- [restartedMain] com.efk.sample.SampleApplication         : The following profiles are active: dev
+2021-09-22 14:17:53.046  INFO 39223 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-22 14:17:53.047  INFO 39223 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-22 14:17:55.277  INFO 39223 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-09-22 14:17:55.287  INFO 39223 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 14:17:55.288  INFO 39223 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 14:17:55.346  INFO 39223 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 14:17:55.346  INFO 39223 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2299 ms
+2021-09-22 14:17:55.702  INFO 39223 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22 14:17:55.823  INFO 39223 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-22 14:17:55.940  INFO 39223 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-22 14:17:55.941  INFO 39223 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-22 14:17:55.960  INFO 39223 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-22 14:17:55.992  INFO 39223 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-22 14:17:56.085  INFO 39223 --- [restartedMain] com.efk.sample.SampleApplication         : Started SampleApplication in 4.031 seconds (JVM running for 4.878)
+2021-09-22 14:18:25.085  INFO 39223 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 14:18:25.086  INFO 39223 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-22 14:18:25.087  INFO 39223 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-22 14:18:25.109  INFO 39223 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:18:25.135  INFO 39223 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:18:25.323  INFO 39223 --- [http-nio-8090-exec-2] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:18:25.536  INFO 39223 --- [http-nio-8090-exec-3] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:18:25.738  INFO 39223 --- [http-nio-8090-exec-4] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:18:25.980  INFO 39223 --- [http-nio-8090-exec-5] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:20:11.136  INFO 39433 --- [restartedMain] com.efk.sample.SampleApplication         : Starting SampleApplication using Java 1.8.0_265 on kwonbyui-MacBookPro.local with PID 39433 (/Users/kwonby/devops/efk_docker/sample/build/classes/java/main started by kwonby in /Users/kwonby/devops/efk_docker/sample)
+2021-09-22 14:20:11.139  INFO 39433 --- [restartedMain] com.efk.sample.SampleApplication         : The following profiles are active: dev
+2021-09-22 14:20:11.173  INFO 39433 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-22 14:20:11.173  INFO 39433 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-22 14:20:12.086  INFO 39433 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-09-22 14:20:12.093  INFO 39433 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 14:20:12.093  INFO 39433 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 14:20:12.135  INFO 39433 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 14:20:12.135  INFO 39433 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 961 ms
+2021-09-22 14:20:12.425  INFO 39433 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22 14:20:12.513  INFO 39433 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-22 14:20:12.608  INFO 39433 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-22 14:20:12.610  INFO 39433 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-22 14:20:12.620  INFO 39433 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-22 14:20:12.642  INFO 39433 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-22 14:20:12.703  INFO 39433 --- [restartedMain] com.efk.sample.SampleApplication         : Started SampleApplication in 2.301 seconds (JVM running for 3.21)
+2021-09-22 14:23:48.037  INFO 39433 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 14:23:48.038  INFO 39433 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-22 14:23:48.041  INFO 39433 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-09-22 14:23:48.064  INFO 39433 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:23:48.571  INFO 39433 --- [http-nio-8090-exec-2] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:42:22.825  INFO 39981 --- [restartedMain] com.efk.sample.SampleApplication         : Starting SampleApplication using Java 1.8.0_265 on kwonbyui-MacBookPro.local with PID 39981 (/Users/kwonby/devops/efk_docker/sample/build/classes/java/main started by kwonby in /Users/kwonby/devops/efk_docker/sample)
+2021-09-22 14:42:22.828  INFO 39981 --- [restartedMain] com.efk.sample.SampleApplication         : The following profiles are active: dev
+2021-09-22 14:42:22.862  INFO 39981 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-22 14:42:22.862  INFO 39981 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-22 14:42:23.824  INFO 39981 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-09-22 14:42:23.831  INFO 39981 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 14:42:23.831  INFO 39981 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 14:42:23.870  INFO 39981 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 14:42:23.871  INFO 39981 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2021-09-22 14:42:24.186  INFO 39981 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22 14:42:24.275  INFO 39981 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-22 14:42:24.364  INFO 39981 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-22 14:42:24.365  INFO 39981 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-22 14:42:24.377  INFO 39981 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-22 14:42:24.397  INFO 39981 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-22 14:42:24.463  INFO 39981 --- [restartedMain] com.efk.sample.SampleApplication         : Started SampleApplication in 2.178 seconds (JVM running for 2.729)
+2021-09-22 14:43:57.762  INFO 39981 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 14:43:57.764  INFO 39981 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-22 14:43:57.765  INFO 39981 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-22 14:44:02.114  INFO 39981 --- [http-nio-8090-exec-9] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:03.593  INFO 39981 --- [http-nio-8090-exec-2] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:03.966  INFO 39981 --- [http-nio-8090-exec-3] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:04.244  INFO 39981 --- [http-nio-8090-exec-10] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:39.741  INFO 39981 --- [http-nio-8090-exec-6] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:39.934  INFO 39981 --- [http-nio-8090-exec-5] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:40.144  INFO 39981 --- [http-nio-8090-exec-4] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 14:44:40.341  INFO 39981 --- [http-nio-8090-exec-7] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:06:40.009  INFO 40322 --- [restartedMain] com.efk.sample.SampleApplication         : Starting SampleApplication using Java 1.8.0_265 on kwonbyui-MacBookPro.local with PID 40322 (/Users/kwonby/devops/efk_docker/sample/build/classes/java/main started by kwonby in /Users/kwonby/devops/efk_docker/sample)
+2021-09-22 15:06:40.017  INFO 40322 --- [restartedMain] com.efk.sample.SampleApplication         : The following profiles are active: dev
+2021-09-22 15:06:40.084  INFO 40322 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-22 15:06:40.084  INFO 40322 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-22 15:06:41.447  INFO 40322 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-09-22 15:06:41.459  INFO 40322 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-22 15:06:41.459  INFO 40322 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-22 15:06:41.517  INFO 40322 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-22 15:06:41.517  INFO 40322 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1432 ms
+2021-09-22 15:06:41.918  INFO 40322 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-09-22 15:06:42.024  INFO 40322 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-22 15:06:42.137  INFO 40322 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-09-22 15:06:42.139  INFO 40322 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-09-22 15:06:42.160  INFO 40322 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-09-22 15:06:42.196  INFO 40322 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-09-22 15:06:42.282  INFO 40322 --- [restartedMain] com.efk.sample.SampleApplication         : Started SampleApplication in 3.113 seconds (JVM running for 3.878)
+2021-09-22 15:13:57.520  INFO 40322 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-22 15:13:57.520  INFO 40322 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-22 15:13:57.522  INFO 40322 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-22 15:13:57.545  INFO 40322 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:57.575  INFO 40322 --- [http-nio-8090-exec-1] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:57.579  INFO 40322 --- [http-nio-8090-exec-2] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:57.801  INFO 40322 --- [http-nio-8090-exec-3] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:58.050  INFO 40322 --- [http-nio-8090-exec-4] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:58.289  INFO 40322 --- [http-nio-8090-exec-5] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:58.520  INFO 40322 --- [http-nio-8090-exec-6] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:58.742  INFO 40322 --- [http-nio-8090-exec-7] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!
+2021-09-22 15:13:58.971  INFO 40322 --- [http-nio-8090-exec-8] com.efk.sample.SampleController          : test 로그!!!!!!!!!!!!!!!!

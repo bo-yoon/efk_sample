@@ -2,7 +2,7 @@
 <configuration>
 
     <springProfile name="dev">
-        <property resource="logback-dev.yml"/>
+        <property resource="application-dev.yml"/>
     </springProfile>
 
 
