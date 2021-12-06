@@ -3,8 +3,8 @@ services:
   fluentd-client:
     build: ./fluentd-client
     volumes:
-      - ./fluentd-client/conf:/fluentd/etc    # 로컬의 fluentd.conf 파일을 컨테이너로 마운트  
-      - /Users/kwonby/devops/efk_docker/sample/logging:/var/log  # 로컬에 쌓인 서비스의 로그파일을 컨테이너로 마운트
+      - ./fluentd-client/conf:/fluentd/etc    
+      - /Users/kwonby/devops/efk_docker/sample/logging:/var/log
     links:
       - "fluentd-aggregator"
     ports:
@@ -13,7 +13,7 @@ services:
   fluentd-aggregator:
     build: ./fluentd-aggregator
     volumes:
-      - ./fluentd-aggregator/conf:/fluentd/etc # 로컬의 fluentd.conf 파일을 컨테이너로 마운트
+      - ./fluentd-aggregator/conf:/fluentd/etc
     links:
       - "elasticsearch"
     ports:
